@@ -1,0 +1,27 @@
+
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800px;
+    font-size: x-large;
+    font-style: italic;
+    font-style: normal;
+    color: #E6533C;
+    background-color: black;
+  }
+  /* shared styles */
+  /* navbar styles */
+  .navbar{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+  }
+  .nav-links{
+    display: flex;
+  }
+  .nav-item{
+    list-style: none;
+    margin-right: 30px;
+    font-variant: normal;
+  }
+  

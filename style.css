@@ -8,6 +8,10 @@
     font-style: normal;
     color: #E6533C;
     background-color: black;
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 50px;
   }
   /* shared styles */
   /* navbar styles */
@@ -18,10 +22,51 @@
   }
   .nav-links{
     display: flex;
+    color: white;
   }
   .nav-item{
     list-style: none;
     margin-right: 30px;
     font-variant: normal;
   }
+  .btn-p{
+   background-color: #E6533C;
+   color: white;
+   font-weight: bold;
+   font-size: 25px;
+   padding: 25px,50px;
+   border: none;
+   border-radius: 2px;
+
   
+  }
+  /* banner styles */
+  .banner{
+    color: white;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .Btn-P{
+    background-color: #E6533C;
+    color: white;
+    font-weight: bolder;
+    font-size: large;
+    border: none;
+    border-radius: 10px;
+    height: 50px;
+    width: 200px;
+  }
+  .Btn-D{
+   background-color: black;
+   color: white;
+   border-radius: 10px;font-weight: bolder;
+   font-size: large;
+   height: 50px;
+   width: 200px;
+  
+  }
+  /* section styles */
+.S-S{
+justify-content: space-between;
+}

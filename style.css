@@ -70,3 +70,27 @@
 .S-S{
 justify-content: space-between;
 }
+.img-description{
+  color: gray;
+  font-weight: 200px;
+  font-size: medium;
+}
+.banner-2{
+  color: white;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 100px;
+}
+.image-2{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+/* S-4 styles */
+.banner-3{
+  color: white;
+  margin-top: 200px;
+  margin-bottom: 100px;
+}
+.S-4{
+  display: flex;
+}

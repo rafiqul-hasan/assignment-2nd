@@ -13,6 +13,7 @@
     margin-right: 200px;
     margin-bottom: 50px;
   }
+  
   /* shared styles */
   /* navbar styles */
   .navbar{
@@ -28,6 +29,7 @@
     list-style: none;
     margin-right: 30px;
     font-variant: normal;
+    
   }
   .btn-p{
    background-color: #E6533C;
@@ -69,6 +71,7 @@
   /* section styles */
 .S-S{
 justify-content: space-between;
+
 }
 .img-description{
   color: gray;
@@ -82,15 +85,55 @@ justify-content: space-between;
   margin-top: 100px;
 }
 .image-2{
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  display: flex;
+
 }
 /* S-4 styles */
 .banner-3{
   color: white;
-  margin-top: 200px;
+  margin-top: 100px;
   margin-bottom: 100px;
 }
 .S-4{
   display: flex;
+  justify-content: space-around;
+  background-color: darkslategrey;
 }
+.image-6{
+  display: grid;
+  grid-template-columns: repeat(3,2fr);
+  gap: 25px;
+  border: none;
+  border-radius: 20px;
+  justify-content: center;
+  padding: auto;
+  margin-top: 50px;
+  background-color: dimgrey;
+}
+.f-s{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+.title{
+  color: white;
+}
+.banner-description{
+  color: gray;
+}
+.copy-right{
+  text-align: center;
+  color: gray;
+
+}
+.footer-style{
+  background-color: darkgreen;
+}
+
+/* small device styles */
+@media screen and (max-width: 576px) {
+  
+  .image-6{
+    grid-template-columns: repeat(1,1fr);
+}
+  
